@@ -1,3 +1,12 @@
+title: Hackxios ML Model
+emoji: 🏃
+colorFrom: red
+colorTo: green
+sdk: docker
+pinned: false
+license: mit
+short_description: 'Hackxios ML Model API '
+
 # Health Risk Prediction API
 
 A lightweight Flask-based Machine Learning API that predicts a **health risk level** based on user symptoms.  
