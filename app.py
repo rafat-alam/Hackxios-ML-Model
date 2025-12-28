@@ -43,7 +43,7 @@ class PredictResponse(BaseModel):
 
 @app.get("/")
 def home():
-    return {"message": "FastAPI ML API running on Render"}
+    return {"message": "FastAPI ML API running on Hugging Face"}
 
 @app.post("/predict", response_model=PredictResponse)
 def predict(data: PredictRequest):
